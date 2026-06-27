@@ -1,0 +1,17 @@
+{
+    "item.bgmitdm.example_item": "Example Item",
+    "block.bgmitdm.example_block": "Example Block",
+    "commands.tdm.start.success": "TDM match started!",
+    "commands.tdm.stop.success": "TDM match stopped!",
+    "commands.tdm.join.success": "You joined the %s team!",
+    "commands.tdm.map.generate": "Warehouse map generated!",
+    "commands.tdm.kit.given": "Weapon kit given!",
+    "game.match.started": "MATCH STARTED",
+    "game.match.subtitle": "Good Luck!",
+    "game.eliminated": "ELIMINATED",
+    "game.respawning": "Respawning in 3 seconds...",
+    "game.red.wins": "RED TEAM WINS!",
+    "game.blue.wins": "BLUE TEAM WINS!",
+    "game.draw": "MATCH ENDED - DRAW!",
+    "game.minute.warning": "WARNING: 1 MINUTE REMAINING"
+}

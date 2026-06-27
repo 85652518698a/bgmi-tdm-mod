@@ -1,0 +1,15 @@
+build/
+.gradle/
+run/
+out/
+*.class
+.idea/
+*.iml
+*.log
+eclipse/
+bin/
+*.jar
+*.zip
+*.gz
+.DS_Store
+Thumbs.db
