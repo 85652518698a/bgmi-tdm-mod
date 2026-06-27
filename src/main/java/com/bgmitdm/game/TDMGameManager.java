@@ -94,6 +94,7 @@ public class TDMGameManager {
             for (ServerPlayer player : server.getPlayerList().getPlayers()) {
                 giveKit(player);
             }
+        }
     }
 
     public void stopGame() {
