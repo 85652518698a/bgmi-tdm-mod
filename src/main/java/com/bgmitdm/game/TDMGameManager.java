@@ -14,6 +14,8 @@ import net.minecraft.world.scores.Score;
 import net.minecraft.ChatFormatting;
 import java.util.*;
 
+import static com.bgmitdm.game.KitManager.giveKit;
+
 public class TDMGameManager {
     private static TDMGameManager instance;
 
@@ -88,7 +90,10 @@ public class TDMGameManager {
 
             scoreboardManager.createScoreboard(server);
             teleportPlayersToSpawn();
-        }
+
+            for (ServerPlayer player : server.getPlayerList().getPlayers()) {
+                giveKit(player);
+            }
     }
 
     public void stopGame() {
