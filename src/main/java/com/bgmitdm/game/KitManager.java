@@ -17,7 +17,7 @@ public class KitManager {
         ItemStack fireworks = new ItemStack(Items.FIREWORK_ROCKET, 16);
 
         player.getInventory().setItem(8, arrows);
-        player.getInventory().addItem(fireworks);
+        player.getInventory().add(fireworks);
 
         TDMGameManager.getInstance().getTeamManager().giveTeamArmor(player);
     }
